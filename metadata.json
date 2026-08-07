@@ -1,0 +1,6 @@
+{
+  "name": "BrickyAI (Powered by Notch & Stud)",
+  "description": "Schweizer Geschichte, Stein für Stein. KI-gestützter LDraw-Klemmbaustein-Generator mit 3D-Vorschau und Rebrickable-Integration.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

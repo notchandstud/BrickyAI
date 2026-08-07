@@ -1,0 +1,74 @@
+@import url('https://fonts.cdnfonts.com/css/now');
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --bg-dark: #121212;
+    --gold-accent: #00A896;
+    --gold-muted: #007A6D;
+    --gold-light: #70D6CB;
+    --teal-accent: #00A896;
+    --text-main: #F5F5F7;
+    --text-muted: #A0A0A5;
+    --card-bg: #1A1A1D;
+    --card-border: rgba(0, 168, 150, 0.25);
+  }
+
+  * {
+    font-family: 'Now', 'Now Regular', sans-serif !important;
+  }
+
+  body {
+    background-color: #121212;
+    color: #F5F5F7;
+    font-family: 'Now', 'Now Regular', sans-serif;
+  }
+
+  h1, h2, h3, h4, h5, h6, p, span, button, input, textarea, label, div, a {
+    font-family: 'Now', 'Now Regular', sans-serif;
+  }
+}
+
+/* Custom Accent Gradients & Borders */
+.border-gold {
+  border-color: rgba(0, 168, 150, 0.4);
+}
+
+.border-gold-subtle {
+  border-color: rgba(0, 168, 150, 0.18);
+}
+
+.border-gold-strong {
+  border-color: #00A896;
+}
+
+.bg-gold-gradient {
+  background: linear-gradient(135deg, #00A896 0%, #008F80 100%);
+}
+
+.text-gold {
+  color: #00A896;
+}
+
+.text-gold-light {
+  color: #70D6CB;
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #121212;
+}
+::-webkit-scrollbar-thumb {
+  background: #2a2a2e;
+  border-radius: 4px;
+  border: 1px solid rgba(0, 168, 150, 0.2);
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #00A896;
+}
+
+
